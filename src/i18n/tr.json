@@ -1,0 +1,111 @@
+{
+  "home": {
+    "title": "Zenjo",
+    "subtitle": "Mahjong Solitaire",
+    "description": "Klasik tas eslestirmenin modern bulmaca mekanikleriyle bulustugun, ozenle tasarlanmis bir Mahjong Solitaire deneyimi. 4 tematik bolum boyunca 20 el yapimi seviyede dokun, esle ve temizle."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikasi",
+    "subtitle": "Zenjo: Mahjong Solitaire",
+    "effectiveDate": "Yururluk tarihi: 27 Mart 2026",
+    "intro": "Yasin Cetin (\"biz\" veya \"bizim\") Zenjo: Mahjong Solitaire (\"Uygulama\") uygulamasini freemium bir uygulama olarak gelistirmistir. Bu sayfa, Uygulamayi kullandiginizda bilgi toplama, kullanma ve paylasma politikalarimiz hakkinda sizi bilgilendirir.",
+    "informationWeCollect": "Topladigimiz Bilgiler",
+    "informationWeCollectText": "Uygulama hesap olusturmanizi veya herhangi bir kisisel bilgi vermenizi gerektirmez. Adinizi, e-posta adresinizi veya herhangi bir kisisel tanimlayici bilgiyi toplamiyoruz.",
+    "informationWeCollectText2": "Ancak Uygulama, otomatik olarak belirli verileri toplayabilen ucuncu taraf hizmetleri kullanmaktadir:",
+    "deviceIdentifiers": "Cihaz Tanimlayicilari",
+    "deviceIdentifiersText": "Reklam ortakligimiz Google AdMob, kisisellestirilmis veya kisisellestirilmemis reklamlar sunmak icin cihazinizin reklam tanimlayicisini (IDFA) toplayabilir. Cihazinizin gizlilik ayarlarindan reklam takibini sifirlyabilir veya sinirlandirabilirsiniz.",
+    "analyticsData": "Analitik Verileri",
+    "analyticsDataText": "Asagidaki gibi anonim kullanim verilerini toplamak icin Firebase Analytics kullaniyoruz:",
+    "analyticsItems": [
+      "Uygulama acilislari, ekran goruntumeleri ve oturum suresi",
+      "Oyun olaylari (seviye baslama, seviye tamamlama, elde edilen puan)",
+      "Ozellik kullanimi (ipucu kullanimi, tema secimi)",
+      "Cihaz turu, isletim sistemi surumu ve uygulama surumu"
+    ],
+    "analyticsDataText2": "Bu veriler toplu ve anonimdir. Oyuncularin Uygulamayla nasil etkilestigini anlamamiza ve deneyimi iyilestirmemize yardimci olur.",
+    "crashDiagnostics": "Cokme Teshisleri",
+    "crashDiagnosticsText": "Cokme raporlari ve teshis verilerini toplamak icin Firebase Crashlytics kullaniyoruz. Bu veriler cihaz durumu, yigin izleri ve cokme anindaki uygulama baglamini icerir. Bu veriler yalnizca hatalari tespit etmek ve duzelttmek icin kullanilir.",
+    "howWeUse": "Bilgileri Nasil Kullaniyoruz",
+    "howWeUseItems": [
+      "Google AdMob araciligiyla reklam sunmak icin",
+      "Uygulama kullanimini analiz etmek ve oyun deneyimini iyilestirmek icin",
+      "Cokmeleri ve teknik sorunlari tespit edip duzelttmek icin",
+      "Oyuncular tarafindan en cok tercih edilen ozellikleri anlamak icin"
+    ],
+    "thirdParty": "Ucuncu Taraf Hizmetleri",
+    "thirdPartyText": "Uygulama, her biri kendi gizlilik politikasina sahip asagidaki ucuncu taraf hizmetlerini kullanmaktadir:",
+    "thirdPartyAdmob": "reklamcilik",
+    "thirdPartyAdmobLink": "Google Gizlilik Politikasi",
+    "thirdPartyAnalytics": "kullanim analitigi",
+    "thirdPartyAnalyticsLink": "Firebase Gizlilik",
+    "thirdPartyCrashlytics": "cokme raporlama",
+    "thirdPartyCrashlyticsLink": "Firebase Gizlilik",
+    "dataRetention": "Veri Saklama",
+    "dataRetentionText": "Analitik verileri Firebase'de 14 aya kadar saklanir. Cokme verileri 90 gune kadar saklanir. Reklam verileri Google tarafindan kendi veri saklama politikalarina gore yonetilir.",
+    "dataSharing": "Veri Paylasimi",
+    "dataSharingText": "Verilerinizi yukarida listelenen hizmetler disinda ucuncu taraflara satmiyoruz, takas etmiyoruz veya aktarmiyoruz. Ucuncu taraf SDK'lari tarafindan toplanan veriler ilgili gizlilik politikalarina tabidir.",
+    "childrensPrivacy": "Cocuklarin Gizliligi",
+    "childrensPrivacyText": "Uygulama 4+ olarak derecelendirilmistir ve tum yaslar icin uygundur. 13 yasindan kucuk cocuklardan bilerek kisisel bilgi toplamiyoruz. Uygulama, Cocuklarin Cevrimici Gizliligini Koruma Yasasi'na (COPPA) uygundur. Yanlislikla bir cocuktan bilgi topladigimiza inaniyorsaniz, lutfen bizimle iletisime gecin; derhal silecegiz.",
+    "yourRights": "Haklariniz",
+    "yourRightsText": "Su haklara sahipsiniz:",
+    "yourRightsItems": [
+      "Cihazinizin gizlilik ayarlarindan kisisellestirilmis reklamciliktan cikmak (Ayarlar > Gizlilik > Takip)",
+      "Reklam tanimlayicinizi istediginiz zaman sifirlamak",
+      "Cihazinizla iliskili verilerin silinmesini bizimle iletisime gecerek talep etmek"
+    ],
+    "changes": "Bu Politikadaki Degisiklikler",
+    "changesText": "Bu Gizlilik Politikasini zaman zaman guncelleyebiliriz. Degisiklikler, guncellenmis yururluk tarihiyle birlikte bu sayfada yayinlanacaktir. Bu sayfayi periyodik olarak incelemenizi oneririz.",
+    "contactUs": "Bize Ulasin",
+    "contactUsText": "Bu Gizlilik Politikasi hakkinda sorulariniz veya endiseleriniz varsa, lutfen bizimle iletisime gecin:"
+  },
+  "support": {
+    "title": "Destek",
+    "subtitle": "Zenjo: Mahjong Solitaire",
+    "contactPrompt": "Yardima mi ihtiyaciniz var? Geri bildiriminiz mi var? Bize ulasin:",
+    "responseTime": "Genellikle 48 saat icinde yanit veriyoruz.",
+    "faqTitle": "Sikca Sorulan Sorular",
+    "faqs": [
+      {
+        "q": "Her bulmaca cozulebilir mi?",
+        "a": "Evet! Her tahta, bir cozumun var oldugunu garanti eden ters-insa algoritmasi kullanilarak olusturulur. Sansa gerek yok — sadece strateji ve beceri."
+      },
+      {
+        "q": "Oyun cevrimdisi calisiyor mu?",
+        "a": "Evet. Zenjo tamamen cevrimdisi calisir. Internet baglantisi olmadan her yerde, her zaman oynayabilirsiniz. Internet baglantisi yalnizca odullu reklam izlemek icin gereklidir."
+      },
+      {
+        "q": "Reklamlari nasil kaldiririm?",
+        "a": "Tek seferlik bir uygulama ici satin almayla tum reklamlari kaldirabilirsiniz. Uygulamada Ayarlar'a gidin ve \"Reklamlari Kaldir\" secenegine dokunun."
+      },
+      {
+        "q": "Ilerlemememi nasil sifirlarim?",
+        "a": "Ayarlar'a gidin ve asagi kaydirararak \"Ilerlemeyi Sifirla\" secenegini bulun. Lutfen dikkat: bu islem geri alinamaz — tum yildizlariniz, puanlariniz ve seviye ilerlemeniz kalici olarak silinecektir."
+      },
+      {
+        "q": "Ipucu, karistir ve geri al nedir?",
+        "a": "Bunlar takildiginizda size yardimci olacak guc-up'lardir. <strong>Ipucu</strong> eslesen bir cifti vurgular. <strong>Karistir</strong> tahtadaki taslari yeniden duzenler. <strong>Geri Al</strong> son hamlenizi geri alir. Her oyun sinirli sayida baslar ve kisa bir reklam izleyerek daha fazlasini kazanabilirsiniz."
+      },
+      {
+        "q": "Kombo sistemi nasil calisiyor?",
+        "a": "Art arda hizlica tas eslesstirerek kombo carpanizi olusturun (3x'e kadar). Ne kadar hizli eslestirirseniz, puaniniz o kadar yuksek olur. Engellenmis bir tasa dokunursaniz veya guc-up kullanrsaniz kombo sifirlanir."
+      },
+      {
+        "q": "Bir seviyede 3 yildizi nasil alirim?",
+        "a": "Yildizlar puaniniza ve tamamlama surenize gore belirlenir. 3 yildiz almak icin puan hedefine ulasmali ve sure limitini gecmemelisiniz. Kombolari kullanmak ve guc-up kullanimini en aza indirmek daha yuksek puan almaniza yardimci olacaktir."
+      },
+      {
+        "q": "Oyun verilerim kayboldu. Kurtarabilir miyim?",
+        "a": "Oyun ilerlemesi cihazinizda yerel olarak saklanir. Maalesef uygulamayi silerseniz veya cihazinizi sifirlarsaniz veriler kurtarilamaz. Ilerlemenizi korumak icin uygulamayi yuklu tutmanizi oneririz."
+      }
+    ]
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "privacy": "Gizlilik Politikasi",
+    "support": "Destek",
+    "switchLang": "English"
+  },
+  "footer": {
+    "copyright": "© 2026 Yasin Cetin. Tum haklari saklidir."
+  }
+}

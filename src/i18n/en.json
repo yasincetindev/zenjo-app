@@ -1,0 +1,111 @@
+{
+  "home": {
+    "title": "Zenjo",
+    "subtitle": "Mahjong Solitaire",
+    "description": "A beautifully crafted Mahjong Solitaire experience that blends classic tile-matching with modern puzzle mechanics. Tap, match, and clear your way through 20 handcrafted levels across 4 thematic chapters."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Zenjo: Mahjong Solitaire",
+    "effectiveDate": "Effective date: March 27, 2026",
+    "intro": "Yasin Cetin (\"we\", \"our\", or \"us\") built Zenjo: Mahjong Solitaire (\"the App\") as a freemium application. This page informs you of our policies regarding the collection, use, and disclosure of information when you use the App.",
+    "informationWeCollect": "Information We Collect",
+    "informationWeCollectText": "The App does not require you to create an account or provide any personal information. We do not collect your name, email address, or any personally identifiable information.",
+    "informationWeCollectText2": "However, the App uses third-party services that may collect certain data automatically:",
+    "deviceIdentifiers": "Device Identifiers",
+    "deviceIdentifiersText": "Google AdMob, our advertising partner, may collect your device's advertising identifier (IDFA) to serve personalized or non-personalized ads. You can reset or limit ad tracking in your device's privacy settings.",
+    "analyticsData": "Analytics Data",
+    "analyticsDataText": "We use Firebase Analytics to collect anonymous usage data such as:",
+    "analyticsItems": [
+      "App opens, screen views, and session duration",
+      "Game events (level started, level completed, score achieved)",
+      "Feature usage (hints used, themes selected)",
+      "Device type, operating system version, and app version"
+    ],
+    "analyticsDataText2": "This data is aggregated and anonymous. It helps us understand how players interact with the App so we can improve the experience.",
+    "crashDiagnostics": "Crash Diagnostics",
+    "crashDiagnosticsText": "We use Firebase Crashlytics to collect crash reports and diagnostic data, including device state, stack traces, and app context at the time of a crash. This data is used solely to identify and fix bugs.",
+    "howWeUse": "How We Use Information",
+    "howWeUseItems": [
+      "To serve advertisements through Google AdMob",
+      "To analyze app usage and improve the game experience",
+      "To identify and fix crashes and technical issues",
+      "To understand which features are most valued by players"
+    ],
+    "thirdParty": "Third-Party Services",
+    "thirdPartyText": "The App uses the following third-party services, each with their own privacy policies:",
+    "thirdPartyAdmob": "advertising",
+    "thirdPartyAdmobLink": "Google Privacy Policy",
+    "thirdPartyAnalytics": "usage analytics",
+    "thirdPartyAnalyticsLink": "Firebase Privacy",
+    "thirdPartyCrashlytics": "crash reporting",
+    "thirdPartyCrashlyticsLink": "Firebase Privacy",
+    "dataRetention": "Data Retention",
+    "dataRetentionText": "Analytics data is retained in Firebase for up to 14 months. Crash data is retained for up to 90 days. Advertising data is managed by Google according to their data retention policies.",
+    "dataSharing": "Data Sharing",
+    "dataSharingText": "We do not sell, trade, or transfer your data to third parties beyond the services listed above. Data collected by third-party SDKs is governed by their respective privacy policies.",
+    "childrensPrivacy": "Children's Privacy",
+    "childrensPrivacyText": "The App is rated 4+ and is suitable for all ages. We do not knowingly collect personal information from children under 13. The App complies with the Children's Online Privacy Protection Act (COPPA). If you believe we have inadvertently collected information from a child, please contact us and we will promptly delete it.",
+    "yourRights": "Your Rights",
+    "yourRightsText": "You have the right to:",
+    "yourRightsItems": [
+      "Opt out of personalized advertising via your device's privacy settings (Settings > Privacy > Tracking)",
+      "Reset your advertising identifier at any time",
+      "Request deletion of any data associated with your device by contacting us"
+    ],
+    "changes": "Changes to This Policy",
+    "changesText": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this page periodically.",
+    "contactUs": "Contact Us",
+    "contactUsText": "If you have questions or concerns about this Privacy Policy, please contact us at:"
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Zenjo: Mahjong Solitaire",
+    "contactPrompt": "Need help? Have feedback? Reach out to us:",
+    "responseTime": "We typically respond within 48 hours.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Is every puzzle solvable?",
+        "a": "Yes! Every board is generated using a reverse-build algorithm that guarantees a solution exists. No luck needed — just strategy and skill."
+      },
+      {
+        "q": "Does the game work offline?",
+        "a": "Yes. Zenjo works completely offline. You can play anywhere, anytime without an internet connection. An internet connection is only needed for watching rewarded ads."
+      },
+      {
+        "q": "How do I remove ads?",
+        "a": "You can remove all ads with a one-time in-app purchase. Go to Settings in the app and tap \"Remove Ads\"."
+      },
+      {
+        "q": "How do I reset my progress?",
+        "a": "Go to Settings and scroll down to find the \"Reset Progress\" option. Please note that this action cannot be undone — all your stars, scores, and level progress will be permanently deleted."
+      },
+      {
+        "q": "What are hints, shuffle, and undo?",
+        "a": "These are power-ups to help you when you're stuck. <strong>Hints</strong> highlight a matching pair. <strong>Shuffle</strong> rearranges tiles on the board. <strong>Undo</strong> reverses your last move. Each game starts with a limited number of each, and you can earn more by watching a short ad."
+      },
+      {
+        "q": "How does the combo system work?",
+        "a": "Match tiles quickly in succession to build your combo multiplier (up to 3x). The faster you match, the higher your score. The combo resets if you tap a blocked tile or use a power-up."
+      },
+      {
+        "q": "How do I earn 3 stars on a level?",
+        "a": "Stars are based on your score and completion time. To earn 3 stars, you need to reach the score target and finish within the time limit. Using combos and minimizing power-up usage will help you achieve higher scores."
+      },
+      {
+        "q": "My game data was lost. Can I recover it?",
+        "a": "Game progress is stored locally on your device. Unfortunately, if you delete the app or reset your device, the data cannot be recovered. We recommend keeping the app installed to preserve your progress."
+      }
+    ]
+  },
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "switchLang": "Turkce"
+  },
+  "footer": {
+    "copyright": "© 2026 Yasin Cetin. All rights reserved."
+  }
+}
