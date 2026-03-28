@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
@@ -6,7 +6,7 @@ import Support from './pages/Support';
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/zenjo-app">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
@@ -14,6 +14,6 @@ export default function App() {
           <Route path="support" element={<Support />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
