@@ -7,51 +7,90 @@
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "Zenjo: Mahjong Solitaire",
-    "effectiveDate": "Effective date: March 27, 2026",
-    "intro": "Yasin Cetin (\"we\", \"our\", or \"us\") built Zenjo: Mahjong Solitaire (\"the App\") as a freemium application. This page informs you of our policies regarding the collection, use, and disclosure of information when you use the App.",
+    "effectiveDate": "Effective date: April 15, 2026",
+    "intro": "Yasin Cetin (\"we\", \"our\", or \"us\") built Zenjo: Mahjong Solitaire (\"the App\") as a free, ad-supported iOS application. This page explains what information the App handles, how it is used, and the choices you have.",
+    "tocTitle": "On this page",
     "informationWeCollect": "Information We Collect",
-    "informationWeCollectText": "The App does not require you to create an account or provide any personal information. We do not collect your name, email address, or any personally identifiable information.",
-    "informationWeCollectText2": "However, the App uses third-party services that may collect certain data automatically:",
+    "informationWeCollectText": "The App does not require you to sign in or provide any personal information. You can set a local username and pick an avatar, but these are stored only on your device and are never uploaded to us.",
+    "informationWeCollectText2": "The App does use a small number of third-party services that automatically collect technical or gameplay data, as described below.",
     "deviceIdentifiers": "Device Identifiers",
-    "deviceIdentifiersText": "Google AdMob, our advertising partner, may collect your device's advertising identifier (IDFA) to serve personalized or non-personalized ads. You can reset or limit ad tracking in your device's privacy settings.",
+    "deviceIdentifiersText": "The App does not ask for App Tracking Transparency permission and does not track you across apps or websites. Google AdMob uses Apple's SKAdNetwork for privacy-preserving ad attribution and may use non-identifying device signals (such as the app's vendor identifier — IDFV) to serve contextual or limited-personalization ads. No advertising identifier (IDFA) is read without your explicit system-level consent.",
     "analyticsData": "Analytics Data",
-    "analyticsDataText": "We use Firebase Analytics to collect anonymous usage data such as:",
-    "analyticsItems": [
-      "App opens, screen views, and session duration",
-      "Game events (level started, level completed, score achieved)",
-      "Feature usage (hints used, themes selected)",
-      "Device type, operating system version, and app version"
+    "analyticsDataText": "We use Firebase Analytics to collect anonymous gameplay and usage events, including:",
+    "analyticsEvents": [
+      "Game lifecycle events (game_start, game_complete, game_pause, game_resume, game_restart)",
+      "Gameplay actions (tile_selected, tile_matched, hint_used, shuffle_used, undo_used, continue_after_ad)",
+      "Level progression (level_start, level_complete, level_fail)",
+      "Ad events (ad_shown, ad_reward_earned, ad_load_failed, ad_show_failed)",
+      "Settings and preferences (setting_changed, theme_changed, onboarding_completed, progress_reset)",
+      "Streak events (streak_recorded, streak_lost, streak_milestone)",
+      "Notification permission result"
+    ],
+    "analyticsPropsText": "We also set the following aggregate user properties so we can understand how players progress, all derived from on-device state:",
+    "analyticsProps": [
+      "Total games played",
+      "Total stars earned",
+      "Current level reached",
+      "Win rate",
+      "Current daily streak and best streak"
     ],
     "analyticsDataText2": "This data is aggregated and anonymous. It helps us understand how players interact with the App so we can improve the experience.",
     "crashDiagnostics": "Crash Diagnostics",
-    "crashDiagnosticsText": "We use Firebase Crashlytics to collect crash reports and diagnostic data, including device state, stack traces, and app context at the time of a crash. This data is used solely to identify and fix bugs.",
+    "crashDiagnosticsText": "We use Firebase Crashlytics to collect crash reports, non-fatal errors, and diagnostic context when something goes wrong. Alongside stack traces and device state, we attach small gameplay context keys to help reproduce issues:",
+    "crashKeys": [
+      "Level ID, tiles remaining, and current score",
+      "Bar slot count and current game phase (playing, paused, won, lost)",
+      "Breadcrumb logs of recent gameplay actions"
+    ],
+    "pushNotifications": "Push Notifications",
+    "pushNotificationsText": "If you grant notification permission (we only ask after you finish your first level), the App registers a device token with Firebase Cloud Messaging (FCM) so we can send optional re-engagement and streak reminders. The device is subscribed to one or more of the following topics based on your play state:",
+    "fcmTopics": [
+      "all_users — every player who has enabled notifications",
+      "streak_active — players with an ongoing daily streak",
+      "streak_lapsed — players whose streak has recently ended"
+    ],
+    "remoteConfig": "Remote Configuration",
+    "remoteConfigText": "The App uses Firebase Remote Config to fetch small configuration values (such as the support URL, privacy URL, and App Store URL) from Firebase. Remote Config is read-only from your device's perspective — no personal or gameplay data is sent.",
+    "performance": "Performance Monitoring",
+    "performanceText": "We use Firebase Performance Monitoring to collect anonymized metrics such as app startup time and network request latency. This helps us identify slow or broken code paths.",
     "howWeUse": "How We Use Information",
     "howWeUseItems": [
       "To serve advertisements through Google AdMob",
       "To analyze app usage and improve the game experience",
       "To identify and fix crashes and technical issues",
-      "To understand which features are most valued by players"
+      "To monitor app performance and reliability",
+      "To send optional re-engagement and streak notifications (only if you opt in)",
+      "To remotely configure non-sensitive values like support URLs and feature flags"
     ],
     "thirdParty": "Third-Party Services",
-    "thirdPartyText": "The App uses the following third-party services, each with their own privacy policies:",
-    "thirdPartyAdmob": "advertising",
+    "thirdPartyText": "The App uses the following third-party services, each governed by its own privacy policy:",
+    "thirdPartyAdmob": "advertising (rewarded & interstitial ads)",
     "thirdPartyAdmobLink": "Google Privacy Policy",
     "thirdPartyAnalytics": "usage analytics",
     "thirdPartyAnalyticsLink": "Firebase Privacy",
-    "thirdPartyCrashlytics": "crash reporting",
+    "thirdPartyCrashlytics": "crash and error reporting",
     "thirdPartyCrashlyticsLink": "Firebase Privacy",
+    "thirdPartyFcm": "optional push notifications",
+    "thirdPartyFcmLink": "Firebase Privacy",
+    "thirdPartyRemoteConfig": "remote configuration values",
+    "thirdPartyRemoteConfigLink": "Firebase Privacy",
+    "thirdPartyPerformance": "performance metrics",
+    "thirdPartyPerformanceLink": "Firebase Privacy",
+    "thirdPartyAppleAd": "privacy-preserving ad attribution",
+    "thirdPartyAppleAdLink": "Apple Privacy Policy",
     "dataRetention": "Data Retention",
-    "dataRetentionText": "Analytics data is retained in Firebase for up to 14 months. Crash data is retained for up to 90 days. Advertising data is managed by Google according to their data retention policies.",
+    "dataRetentionText": "Analytics data is retained in Firebase for up to 14 months. Crash reports are retained for up to 90 days. Advertising data is managed by Google according to their own policies. FCM device tokens are retained only while the App is installed and notifications are enabled; uninstalling the App invalidates the token. Remote Config stores no user data.",
     "dataSharing": "Data Sharing",
-    "dataSharingText": "We do not sell, trade, or transfer your data to third parties beyond the services listed above. Data collected by third-party SDKs is governed by their respective privacy policies.",
+    "dataSharingText": "We do not sell, trade, or transfer your data to third parties beyond the services listed above. Data collected by these SDKs is governed by their respective privacy policies. Your game progress, profile, and statistics live only on your device — we have no cloud save or server-side account system.",
     "childrensPrivacy": "Children's Privacy",
-    "childrensPrivacyText": "The App is rated 4+ and is suitable for all ages. We do not knowingly collect personal information from children under 13. The App complies with the Children's Online Privacy Protection Act (COPPA). If you believe we have inadvertently collected information from a child, please contact us and we will promptly delete it.",
+    "childrensPrivacyText": "The App is rated 4+ and is suitable for all ages. We do not knowingly collect personal information from children under 13, and the App complies with the Children's Online Privacy Protection Act (COPPA). If you believe we have inadvertently collected information from a child, please contact us and we will promptly delete it.",
     "yourRights": "Your Rights",
     "yourRightsText": "You have the right to:",
     "yourRightsItems": [
-      "Opt out of personalized advertising via your device's privacy settings (Settings > Privacy > Tracking)",
-      "Reset your advertising identifier at any time",
-      "Request deletion of any data associated with your device by contacting us"
+      "Disable notifications at any time in iOS Settings → Notifications → Zenjo",
+      "Reset your advertising identifier via iOS Settings → Privacy & Security → Apple Advertising",
+      "Reset all locally stored progress, stats, and profile from the App's Settings → Reset Progress",
+      "Request deletion of any Firebase data associated with your device by contacting us at the email below"
     ],
     "changes": "Changes to This Policy",
     "changesText": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this page periodically.",
@@ -64,38 +103,77 @@
     "contactPrompt": "Need help? Have feedback? Reach out to us:",
     "responseTime": "We typically respond within 48 hours.",
     "faqTitle": "Frequently Asked Questions",
-    "faqs": [
+    "faqGroups": [
       {
-        "q": "Is every puzzle solvable?",
-        "a": "Yes! Every board is generated using a reverse-build algorithm that guarantees a solution exists. No luck needed — just strategy and skill."
+        "title": "Gameplay",
+        "faqs": [
+          {
+            "q": "Is every puzzle solvable?",
+            "a": "Yes! Every board is generated using a reverse-build algorithm that guarantees a solution exists. No luck needed — just strategy and skill."
+          },
+          {
+            "q": "What are hints, shuffle, and undo?",
+            "a": "These are power-ups to help you when you're stuck. <strong>Hints</strong> highlight a matching tile for the one you've selected — you start each level with 3. <strong>Shuffle</strong> randomizes tile positions and you get 1 per level. <strong>Undo</strong> reverses your last move — you start with 3. When you run out, you can watch a short rewarded ad to earn more."
+          },
+          {
+            "q": "How does the combo system work?",
+            "a": "Match tiles quickly in succession to build your combo multiplier (up to 3x). The faster you match, the higher your score. Tapping a blocked tile or using a power-up resets the combo."
+          },
+          {
+            "q": "How do I earn 3 stars on a level?",
+            "a": "Stars are based on your score and completion time. To earn 3 stars, you need to hit the score target and finish within the time limit. Chaining combos and using as few power-ups as possible will push your score up."
+          },
+          {
+            "q": "How do I resume a game I was playing?",
+            "a": "If you close the app mid-level, a <strong>Continue Game</strong> option appears on the home screen so you can pick up exactly where you left off."
+          }
+        ]
       },
       {
-        "q": "Does the game work offline?",
-        "a": "Yes. Zenjo works completely offline. You can play anywhere, anytime without an internet connection. An internet connection is only needed for watching rewarded ads."
+        "title": "Progress & Profile",
+        "faqs": [
+          {
+            "q": "How do streaks work?",
+            "a": "Zenjo tracks a daily play streak — play at least once a day to extend it. Missing a day resets your current streak, but your best streak is saved. You can see both in your profile."
+          },
+          {
+            "q": "Can I change my username or avatar?",
+            "a": "Yes. Open <strong>Settings → Profile</strong> to change your username and pick from 8 avatars: Dragon, Samurai, Phoenix, Sage, Bonsai, Mandala, Tiger, or Yin-Yang."
+          },
+          {
+            "q": "How do I change tile or background themes?",
+            "a": "Open <strong>Settings → Themes</strong> to switch between available tile sets and board backgrounds."
+          },
+          {
+            "q": "How do I reset my progress?",
+            "a": "In the app, go to <strong>Settings</strong> and scroll down to <strong>Reset Progress</strong>. This action cannot be undone — all stars, scores, level progress, streaks, statistics, and profile data stored on the device will be permanently deleted."
+          },
+          {
+            "q": "My game data was lost. Can I recover it?",
+            "a": "Zenjo stores all progress locally on your device — there is no cloud save or sign-in. If you delete the app or reset your device, the data cannot be recovered. We recommend keeping the app installed to preserve your progress."
+          }
+        ]
       },
       {
-        "q": "How do I remove ads?",
-        "a": "You can remove all ads with a one-time in-app purchase. Go to Settings in the app and tap \"Remove Ads\"."
-      },
-      {
-        "q": "How do I reset my progress?",
-        "a": "Go to Settings and scroll down to find the \"Reset Progress\" option. Please note that this action cannot be undone — all your stars, scores, and level progress will be permanently deleted."
-      },
-      {
-        "q": "What are hints, shuffle, and undo?",
-        "a": "These are power-ups to help you when you're stuck. <strong>Hints</strong> highlight a matching pair. <strong>Shuffle</strong> rearranges tiles on the board. <strong>Undo</strong> reverses your last move. Each game starts with a limited number of each, and you can earn more by watching a short ad."
-      },
-      {
-        "q": "How does the combo system work?",
-        "a": "Match tiles quickly in succession to build your combo multiplier (up to 3x). The faster you match, the higher your score. The combo resets if you tap a blocked tile or use a power-up."
-      },
-      {
-        "q": "How do I earn 3 stars on a level?",
-        "a": "Stars are based on your score and completion time. To earn 3 stars, you need to reach the score target and finish within the time limit. Using combos and minimizing power-up usage will help you achieve higher scores."
-      },
-      {
-        "q": "My game data was lost. Can I recover it?",
-        "a": "Game progress is stored locally on your device. Unfortunately, if you delete the app or reset your device, the data cannot be recovered. We recommend keeping the app installed to preserve your progress."
+        "title": "Platform & Ads",
+        "faqs": [
+          {
+            "q": "Which platforms is Zenjo on?",
+            "a": "Zenjo is currently available on iOS only (iOS 18 or later). There is no Android version at this time."
+          },
+          {
+            "q": "Does the game work offline?",
+            "a": "Yes. Core gameplay works fully offline. An internet connection is only needed for watching rewarded ads, receiving push notifications, and syncing anonymous analytics."
+          },
+          {
+            "q": "Why does the game sometimes not show an ad after a level?",
+            "a": "Ad frequency is deliberately limited so ads stay unobtrusive: no interstitials during the tutorial (levels 1–3), roughly one every 3 levels afterward, a maximum of 3 per app session, and at least 180 seconds between interstitials. Rewarded ads (for hints, shuffles, undos, and continues) are always on demand."
+          },
+          {
+            "q": "How do I turn off notifications?",
+            "a": "You'll be asked for notification permission after you finish your first level. To change it later, open <strong>iOS Settings → Notifications → Zenjo</strong> and toggle Allow Notifications."
+          }
+        ]
       }
     ]
   },

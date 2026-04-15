@@ -5,9 +5,9 @@ interface FaqItemProps {
 
 export default function FaqItem({ question, answer }: FaqItemProps) {
   return (
-    <div className="faq-item">
-      <h3>{question}</h3>
-      <p dangerouslySetInnerHTML={{ __html: answer }} />
-    </div>
+    <details className="faq-item">
+      <summary>{question}</summary>
+      <p className="faq-answer" dangerouslySetInnerHTML={{ __html: answer }} />
+    </details>
   );
 }

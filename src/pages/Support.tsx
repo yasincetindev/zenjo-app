@@ -4,21 +4,31 @@ import Footer from '../components/Footer';
 import ContactCard from '../components/ContactCard';
 import FaqItem from '../components/FaqItem';
 
+type Faq = { q: string; a: string };
+
 export default function Support() {
   const { t } = useTranslation();
 
-  const faqs = t('support.faqs', { returnObjects: true }) as { q: string; a: string }[];
+  const groups = t('support.faqGroups', { returnObjects: true }) as {
+    title: string;
+    faqs: Faq[];
+  }[];
 
   return (
     <>
-      <Header title={t('support.title')} subtitle={t('support.subtitle')} />
+      <Header title={t('support.title')} subtitle={t('support.subtitle')} motif />
 
       <ContactCard />
 
       <h2>{t('support.faqTitle')}</h2>
 
-      {faqs.map((faq, i) => (
-        <FaqItem key={i} question={faq.q} answer={faq.a} />
+      {groups.map((group, gi) => (
+        <div key={gi}>
+          <div className="faq-group-title">{group.title}</div>
+          {group.faqs.map((faq, i) => (
+            <FaqItem key={i} question={faq.q} answer={faq.a} />
+          ))}
+        </div>
       ))}
 
       <Footer

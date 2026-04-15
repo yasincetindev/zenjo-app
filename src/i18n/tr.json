@@ -7,51 +7,90 @@
   "privacy": {
     "title": "Gizlilik Politikasi",
     "subtitle": "Zenjo: Mahjong Solitaire",
-    "effectiveDate": "Yururluk tarihi: 27 Mart 2026",
-    "intro": "Yasin Cetin (\"biz\" veya \"bizim\") Zenjo: Mahjong Solitaire (\"Uygulama\") uygulamasini freemium bir uygulama olarak gelistirmistir. Bu sayfa, Uygulamayi kullandiginizda bilgi toplama, kullanma ve paylasma politikalarimiz hakkinda sizi bilgilendirir.",
+    "effectiveDate": "Yururluk tarihi: 15 Nisan 2026",
+    "intro": "Yasin Cetin (\"biz\" veya \"bizim\") Zenjo: Mahjong Solitaire (\"Uygulama\") uygulamasini ucretsiz, reklam destekli bir iOS uygulamasi olarak gelistirmistir. Bu sayfa, Uygulamanin hangi bilgileri isledigini, bu bilgilerin nasil kullanildigini ve size sunulan secenekleri aciklamaktadir.",
+    "tocTitle": "Bu sayfada",
     "informationWeCollect": "Topladigimiz Bilgiler",
-    "informationWeCollectText": "Uygulama hesap olusturmanizi veya herhangi bir kisisel bilgi vermenizi gerektirmez. Adinizi, e-posta adresinizi veya herhangi bir kisisel tanimlayici bilgiyi toplamiyoruz.",
-    "informationWeCollectText2": "Ancak Uygulama, otomatik olarak belirli verileri toplayabilen ucuncu taraf hizmetleri kullanmaktadir:",
+    "informationWeCollectText": "Uygulama, oturum acmanizi veya herhangi bir kisisel bilgi vermenizi gerektirmez. Yerel bir kullanici adi belirleyebilir ve bir avatar secebilirsiniz, ancak bunlar yalnizca cihazinizda saklanir ve bize hicbir zaman gonderilmez.",
+    "informationWeCollectText2": "Uygulama, teknik veya oyun icin gerekli verileri otomatik olarak toplayan az sayida ucuncu taraf hizmeti kullanmaktadir. Detaylar asagidadir.",
     "deviceIdentifiers": "Cihaz Tanimlayicilari",
-    "deviceIdentifiersText": "Reklam ortakligimiz Google AdMob, kisisellestirilmis veya kisisellestirilmemis reklamlar sunmak icin cihazinizin reklam tanimlayicisini (IDFA) toplayabilir. Cihazinizin gizlilik ayarlarindan reklam takibini sifirlyabilir veya sinirlandirabilirsiniz.",
+    "deviceIdentifiersText": "Uygulama, Uygulama Takibi Seffafligi (ATT) izni istemez ve sizi uygulamalar veya siteler arasinda takip etmez. Google AdMob, gizligi koruyan reklam atfi icin Apple'in SKAdNetwork altyapisini kullanir ve baglamsal veya sinirli-kisisellestirilmis reklam sunmak icin kimlik belirlemeyen cihaz sinyallerinden (ornegin uygulamanin saglayici tanimlayicisi — IDFV) yararlanabilir. Acik sistem izniniz olmadan reklam tanimlayicisi (IDFA) okunmaz.",
     "analyticsData": "Analitik Verileri",
-    "analyticsDataText": "Asagidaki gibi anonim kullanim verilerini toplamak icin Firebase Analytics kullaniyoruz:",
-    "analyticsItems": [
-      "Uygulama acilislari, ekran goruntumeleri ve oturum suresi",
-      "Oyun olaylari (seviye baslama, seviye tamamlama, elde edilen puan)",
-      "Ozellik kullanimi (ipucu kullanimi, tema secimi)",
-      "Cihaz turu, isletim sistemi surumu ve uygulama surumu"
+    "analyticsDataText": "Anonim oyun ve kullanim olaylarini toplamak icin Firebase Analytics kullaniyoruz:",
+    "analyticsEvents": [
+      "Oyun yasam dongusu olaylari (game_start, game_complete, game_pause, game_resume, game_restart)",
+      "Oyun ici aksiyonlar (tile_selected, tile_matched, hint_used, shuffle_used, undo_used, continue_after_ad)",
+      "Seviye ilerlemesi (level_start, level_complete, level_fail)",
+      "Reklam olaylari (ad_shown, ad_reward_earned, ad_load_failed, ad_show_failed)",
+      "Ayarlar ve tercihler (setting_changed, theme_changed, onboarding_completed, progress_reset)",
+      "Seri (streak) olaylari (streak_recorded, streak_lost, streak_milestone)",
+      "Bildirim izni sonucu"
+    ],
+    "analyticsPropsText": "Ayrica, tamamen cihazdaki duruma dayali asagidaki toplu kullanici ozelliklerini ayarliyoruz, boylece oyuncularin nasil ilerledigini anlayabiliyoruz:",
+    "analyticsProps": [
+      "Oynanan toplam oyun sayisi",
+      "Kazanilan toplam yildiz",
+      "Ulasilan mevcut seviye",
+      "Kazanma orani",
+      "Mevcut gunluk seri ve en iyi seri"
     ],
     "analyticsDataText2": "Bu veriler toplu ve anonimdir. Oyuncularin Uygulamayla nasil etkilestigini anlamamiza ve deneyimi iyilestirmemize yardimci olur.",
     "crashDiagnostics": "Cokme Teshisleri",
-    "crashDiagnosticsText": "Cokme raporlari ve teshis verilerini toplamak icin Firebase Crashlytics kullaniyoruz. Bu veriler cihaz durumu, yigin izleri ve cokme anindaki uygulama baglamini icerir. Bu veriler yalnizca hatalari tespit etmek ve duzelttmek icin kullanilir.",
+    "crashDiagnosticsText": "Bir sorun olustugunda cokme raporlari, olumcul olmayan hatalar ve teshis baglami toplamak icin Firebase Crashlytics kullaniyoruz. Yigin izleri ve cihaz durumunun yani sira, sorunlari yeniden uretmemize yardimci olmak icin kucuk oyun baglam anahtarlari eklenir:",
+    "crashKeys": [
+      "Seviye kimligi, kalan tas sayisi ve mevcut puan",
+      "Bar slot sayisi ve mevcut oyun asamasi (oynaniyor, duraklatildi, kazanildi, kaybedildi)",
+      "Son oyun ici aksiyonlarin breadcrumb (iz) kayitlari"
+    ],
+    "pushNotifications": "Anlik Bildirimler",
+    "pushNotificationsText": "Bildirim izni verirseniz (yalnizca ilk seviyenizi bitirdikten sonra soruyoruz), Uygulama isteginize bagli yeniden etkilesim ve seri hatirlatmalari gonderebilmek icin Firebase Cloud Messaging (FCM) uzerinden bir cihaz belirteci kaydeder. Cihaziniz oyun durumunuza gore asagidaki konu baslarindan bir veya birkacina abone olur:",
+    "fcmTopics": [
+      "all_users — bildirim izni veren tum oyuncular",
+      "streak_active — gunluk serisi devam eden oyuncular",
+      "streak_lapsed — serisi yakin zamanda sona eren oyuncular"
+    ],
+    "remoteConfig": "Uzaktan Yapilandirma",
+    "remoteConfigText": "Uygulama, Firebase'den kucuk yapilandirma degerlerini (destek URL'si, gizlilik URL'si, App Store URL'si gibi) almak icin Firebase Remote Config kullanir. Remote Config sizin cihaziniz acisindan salt okunurdur — hicbir kisisel veya oyun verisi gonderilmez.",
+    "performance": "Performans Izleme",
+    "performanceText": "Uygulama baslangic suresi ve ag istegi gecikmesi gibi anonimlestirilmis metrikleri toplamak icin Firebase Performance Monitoring kullaniyoruz. Bu, yavas veya bozuk kod yollarini tespit etmemize yardimci olur.",
     "howWeUse": "Bilgileri Nasil Kullaniyoruz",
     "howWeUseItems": [
       "Google AdMob araciligiyla reklam sunmak icin",
       "Uygulama kullanimini analiz etmek ve oyun deneyimini iyilestirmek icin",
-      "Cokmeleri ve teknik sorunlari tespit edip duzelttmek icin",
-      "Oyuncular tarafindan en cok tercih edilen ozellikleri anlamak icin"
+      "Cokmeleri ve teknik sorunlari tespit edip duzeltmek icin",
+      "Uygulama performansini ve kararliligini izlemek icin",
+      "Yalnizca izin vermeniz halinde, yeniden etkilesim ve seri bildirimleri gondermek icin",
+      "Destek URL'leri ve ozellik bayraklari gibi hassas olmayan degerleri uzaktan yapilandirmak icin"
     ],
     "thirdParty": "Ucuncu Taraf Hizmetleri",
-    "thirdPartyText": "Uygulama, her biri kendi gizlilik politikasina sahip asagidaki ucuncu taraf hizmetlerini kullanmaktadir:",
-    "thirdPartyAdmob": "reklamcilik",
+    "thirdPartyText": "Uygulama, her biri kendi gizlilik politikasina tabi asagidaki ucuncu taraf hizmetlerini kullanmaktadir:",
+    "thirdPartyAdmob": "reklamcilik (odullu ve gecisli reklamlar)",
     "thirdPartyAdmobLink": "Google Gizlilik Politikasi",
     "thirdPartyAnalytics": "kullanim analitigi",
     "thirdPartyAnalyticsLink": "Firebase Gizlilik",
-    "thirdPartyCrashlytics": "cokme raporlama",
+    "thirdPartyCrashlytics": "cokme ve hata raporlama",
     "thirdPartyCrashlyticsLink": "Firebase Gizlilik",
+    "thirdPartyFcm": "istege bagli anlik bildirimler",
+    "thirdPartyFcmLink": "Firebase Gizlilik",
+    "thirdPartyRemoteConfig": "uzaktan yapilandirma degerleri",
+    "thirdPartyRemoteConfigLink": "Firebase Gizlilik",
+    "thirdPartyPerformance": "performans metrikleri",
+    "thirdPartyPerformanceLink": "Firebase Gizlilik",
+    "thirdPartyAppleAd": "gizligi koruyan reklam atfi",
+    "thirdPartyAppleAdLink": "Apple Gizlilik Politikasi",
     "dataRetention": "Veri Saklama",
-    "dataRetentionText": "Analitik verileri Firebase'de 14 aya kadar saklanir. Cokme verileri 90 gune kadar saklanir. Reklam verileri Google tarafindan kendi veri saklama politikalarina gore yonetilir.",
+    "dataRetentionText": "Analitik verileri Firebase'de 14 aya kadar saklanir. Cokme raporlari 90 gune kadar saklanir. Reklam verileri Google tarafindan kendi politikalarina gore yonetilir. FCM cihaz belirtecleri yalnizca Uygulama yuklu ve bildirimler etkin oldugu surece saklanir; Uygulamayi kaldirdiginizda belirtec gecersiz olur. Remote Config hicbir kullanici verisi saklamaz.",
     "dataSharing": "Veri Paylasimi",
-    "dataSharingText": "Verilerinizi yukarida listelenen hizmetler disinda ucuncu taraflara satmiyoruz, takas etmiyoruz veya aktarmiyoruz. Ucuncu taraf SDK'lari tarafindan toplanan veriler ilgili gizlilik politikalarina tabidir.",
+    "dataSharingText": "Verilerinizi yukarida listelenen hizmetler disinda ucuncu taraflara satmiyoruz, takas etmiyoruz veya aktarmiyoruz. Bu SDK'lar tarafindan toplanan veriler ilgili gizlilik politikalarina tabidir. Oyun ilerlemeniz, profiliniz ve istatistikleriniz yalnizca cihazinizda tutulur — bulut kaydimiz veya sunucu tarafli hesap sistemimiz yoktur.",
     "childrensPrivacy": "Cocuklarin Gizliligi",
-    "childrensPrivacyText": "Uygulama 4+ olarak derecelendirilmistir ve tum yaslar icin uygundur. 13 yasindan kucuk cocuklardan bilerek kisisel bilgi toplamiyoruz. Uygulama, Cocuklarin Cevrimici Gizliligini Koruma Yasasi'na (COPPA) uygundur. Yanlislikla bir cocuktan bilgi topladigimiza inaniyorsaniz, lutfen bizimle iletisime gecin; derhal silecegiz.",
+    "childrensPrivacyText": "Uygulama 4+ olarak derecelendirilmistir ve tum yaslar icin uygundur. 13 yasindan kucuk cocuklardan bilerek kisisel bilgi toplamiyoruz ve Uygulama, Cocuklarin Cevrimici Gizliligini Koruma Yasasi'na (COPPA) uygundur. Yanlislikla bir cocuktan bilgi topladigimiza inaniyorsaniz lutfen bizimle iletisime gecin; derhal silecegiz.",
     "yourRights": "Haklariniz",
     "yourRightsText": "Su haklara sahipsiniz:",
     "yourRightsItems": [
-      "Cihazinizin gizlilik ayarlarindan kisisellestirilmis reklamciliktan cikmak (Ayarlar > Gizlilik > Takip)",
-      "Reklam tanimlayicinizi istediginiz zaman sifirlamak",
-      "Cihazinizla iliskili verilerin silinmesini bizimle iletisime gecerek talep etmek"
+      "Bildirimleri istediginiz zaman iOS Ayarlar → Bildirimler → Zenjo uzerinden devre disi birakmak",
+      "Reklam tanimlayicinizi iOS Ayarlar → Gizlilik ve Guvenlik → Apple Reklamcilik uzerinden sifirlamak",
+      "Cihazda saklanan tum ilerleme, istatistik ve profil verilerinizi Uygulama Ayarlar → Ilerlemeyi Sifirla ile silmek",
+      "Cihazinizla iliskili Firebase verilerinin silinmesini asagidaki e-posta adresi uzerinden bizden talep etmek"
     ],
     "changes": "Bu Politikadaki Degisiklikler",
     "changesText": "Bu Gizlilik Politikasini zaman zaman guncelleyebiliriz. Degisiklikler, guncellenmis yururluk tarihiyle birlikte bu sayfada yayinlanacaktir. Bu sayfayi periyodik olarak incelemenizi oneririz.",
@@ -64,38 +103,77 @@
     "contactPrompt": "Yardima mi ihtiyaciniz var? Geri bildiriminiz mi var? Bize ulasin:",
     "responseTime": "Genellikle 48 saat icinde yanit veriyoruz.",
     "faqTitle": "Sikca Sorulan Sorular",
-    "faqs": [
+    "faqGroups": [
       {
-        "q": "Her bulmaca cozulebilir mi?",
-        "a": "Evet! Her tahta, bir cozumun var oldugunu garanti eden ters-insa algoritmasi kullanilarak olusturulur. Sansa gerek yok — sadece strateji ve beceri."
+        "title": "Oyun",
+        "faqs": [
+          {
+            "q": "Her bulmaca cozulebilir mi?",
+            "a": "Evet! Her tahta, bir cozumun var oldugunu garanti eden ters-insa algoritmasi kullanilarak olusturulur. Sansa gerek yok — sadece strateji ve beceri."
+          },
+          {
+            "q": "Ipucu, karistir ve geri al nedir?",
+            "a": "Bunlar takildiginizda size yardimci olan guc-up'lardir. <strong>Ipucu</strong> sectiginiz tas icin eslesen tasi vurgular — her seviyeye 3 adetle baslarsiniz. <strong>Karistir</strong> tahtadaki taslari yeniden dizer ve her seviyede 1 adet verilir. <strong>Geri Al</strong> son hamlenizi geri alir — 3 adetle baslarsiniz. Bittiginde kisa bir odullu reklam izleyerek daha fazlasini kazanabilirsiniz."
+          },
+          {
+            "q": "Kombo sistemi nasil calisiyor?",
+            "a": "Art arda hizlica tas eslestirerek kombo carpanizi olusturun (3x'e kadar). Ne kadar hizli eslestirirseniz puaniniz o kadar yuksek olur. Engellenmis bir tasa dokunmak veya guc-up kullanmak komboyu sifirlar."
+          },
+          {
+            "q": "Bir seviyede 3 yildizi nasil alirim?",
+            "a": "Yildizlar puaniniza ve tamamlama surenize gore belirlenir. 3 yildiz icin puan hedefine ulasmali ve sure limitini gecmemelisiniz. Kombolari zincirlemek ve guc-up'lari mumkun oldugunca az kullanmak puaninizi yukseltir."
+          },
+          {
+            "q": "Yarida biraktigim bir oyuna nasil devam ederim?",
+            "a": "Uygulamayi seviye ortasinda kapatirsaniz, ana ekranda bir <strong>Oyuna Devam Et</strong> secenegi gorunur ve tam kaldiginiz yerden devam edebilirsiniz."
+          }
+        ]
       },
       {
-        "q": "Oyun cevrimdisi calisiyor mu?",
-        "a": "Evet. Zenjo tamamen cevrimdisi calisir. Internet baglantisi olmadan her yerde, her zaman oynayabilirsiniz. Internet baglantisi yalnizca odullu reklam izlemek icin gereklidir."
+        "title": "Ilerleme ve Profil",
+        "faqs": [
+          {
+            "q": "Seri (streak) sistemi nasil calisir?",
+            "a": "Zenjo gunluk bir oyun serisini takip eder — seriyi uzatmak icin her gun en az bir kez oynayin. Bir gun kacirmak mevcut serinizi sifirlar, ancak en iyi seriniz kaydedilir. Her ikisini de profilinizde gorebilirsiniz."
+          },
+          {
+            "q": "Kullanici adimi veya avatarimi degistirebilir miyim?",
+            "a": "Evet. <strong>Ayarlar → Profil</strong> bolumunden kullanici adinizi degistirebilir ve 8 avatardan birini secebilirsiniz: Ejderha, Samuray, Anka, Bilge, Bonsai, Mandala, Kaplan veya Yin-Yang."
+          },
+          {
+            "q": "Tas veya arka plan temasini nasil degistiririm?",
+            "a": "<strong>Ayarlar → Temalar</strong> bolumunden mevcut tas setleri ve tahta arka planlari arasinda gecis yapabilirsiniz."
+          },
+          {
+            "q": "Ilerlememi nasil sifirlarim?",
+            "a": "Uygulamada <strong>Ayarlar</strong>'a gidin ve asagi kaydirarak <strong>Ilerlemeyi Sifirla</strong> secenegini bulun. Bu islem geri alinamaz — cihazda saklanan tum yildizlar, puanlar, seviye ilerlemesi, seriler, istatistikler ve profil verileri kalici olarak silinecektir."
+          },
+          {
+            "q": "Oyun verilerim kayboldu. Kurtarabilir miyim?",
+            "a": "Zenjo tum ilerlemeyi yalnizca cihazinizda yerel olarak saklar — bulut kaydi veya oturum acma yoktur. Uygulamayi silerseniz veya cihazinizi sifirlarsaniz veriler kurtarilamaz. Ilerlemenizi korumak icin uygulamayi yuklu tutmanizi oneririz."
+          }
+        ]
       },
       {
-        "q": "Reklamlari nasil kaldiririm?",
-        "a": "Tek seferlik bir uygulama ici satin almayla tum reklamlari kaldirabilirsiniz. Uygulamada Ayarlar'a gidin ve \"Reklamlari Kaldir\" secenegine dokunun."
-      },
-      {
-        "q": "Ilerlemememi nasil sifirlarim?",
-        "a": "Ayarlar'a gidin ve asagi kaydirararak \"Ilerlemeyi Sifirla\" secenegini bulun. Lutfen dikkat: bu islem geri alinamaz — tum yildizlariniz, puanlariniz ve seviye ilerlemeniz kalici olarak silinecektir."
-      },
-      {
-        "q": "Ipucu, karistir ve geri al nedir?",
-        "a": "Bunlar takildiginizda size yardimci olacak guc-up'lardir. <strong>Ipucu</strong> eslesen bir cifti vurgular. <strong>Karistir</strong> tahtadaki taslari yeniden duzenler. <strong>Geri Al</strong> son hamlenizi geri alir. Her oyun sinirli sayida baslar ve kisa bir reklam izleyerek daha fazlasini kazanabilirsiniz."
-      },
-      {
-        "q": "Kombo sistemi nasil calisiyor?",
-        "a": "Art arda hizlica tas eslesstirerek kombo carpanizi olusturun (3x'e kadar). Ne kadar hizli eslestirirseniz, puaniniz o kadar yuksek olur. Engellenmis bir tasa dokunursaniz veya guc-up kullanrsaniz kombo sifirlanir."
-      },
-      {
-        "q": "Bir seviyede 3 yildizi nasil alirim?",
-        "a": "Yildizlar puaniniza ve tamamlama surenize gore belirlenir. 3 yildiz almak icin puan hedefine ulasmali ve sure limitini gecmemelisiniz. Kombolari kullanmak ve guc-up kullanimini en aza indirmek daha yuksek puan almaniza yardimci olacaktir."
-      },
-      {
-        "q": "Oyun verilerim kayboldu. Kurtarabilir miyim?",
-        "a": "Oyun ilerlemesi cihazinizda yerel olarak saklanir. Maalesef uygulamayi silerseniz veya cihazinizi sifirlarsaniz veriler kurtarilamaz. Ilerlemenizi korumak icin uygulamayi yuklu tutmanizi oneririz."
+        "title": "Platform ve Reklamlar",
+        "faqs": [
+          {
+            "q": "Zenjo hangi platformlarda?",
+            "a": "Zenjo su anda yalnizca iOS'ta (iOS 18 veya ustu) mevcuttur. Simdilik bir Android surumu bulunmamaktadir."
+          },
+          {
+            "q": "Oyun cevrimdisi calisiyor mu?",
+            "a": "Evet. Temel oyun tamamen cevrimdisi calisir. Internet baglantisi yalnizca odullu reklam izlemek, anlik bildirim almak ve anonim analitik senkronizasyonu icin gereklidir."
+          },
+          {
+            "q": "Seviye sonrasi neden bazen reklam gorunmuyor?",
+            "a": "Reklam sikligi bilinerek sinirlandirilmistir: egitim sirasinda (1-3. seviye) gecisli reklam yok, sonrasinda yaklasik her 3 seviyede bir, bir oturumda en fazla 3 adet ve gecisli reklamlar arasinda en az 180 saniye bekleme. Odullu reklamlar (ipucu, karistir, geri al ve devam icin) her zaman istege baglidir."
+          },
+          {
+            "q": "Bildirimleri nasil kapatirim?",
+            "a": "Ilk seviyeyi tamamladiktan sonra sizden bildirim izni istenir. Daha sonra degistirmek icin <strong>iOS Ayarlar → Bildirimler → Zenjo</strong> bolumuneden Bildirimlere Izin Ver secenegini kapatabilirsiniz."
+          }
+        ]
       }
     ]
   },
